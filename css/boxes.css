@@ -1,0 +1,15 @@
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:20px;
+}
+
+#boxes .box img{
+  width:250px;
+}
