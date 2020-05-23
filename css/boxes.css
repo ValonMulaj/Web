@@ -13,3 +13,11 @@
 #boxes .box img{
   width:250px;
 }
+@media(max-width: 768px){
+	#boxes .box{
+		float: none;
+		text-align: center;
+		width: 100%;
+		
+	}
+}
