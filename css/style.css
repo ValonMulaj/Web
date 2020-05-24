@@ -288,6 +288,22 @@ nav ul {
   box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
 }
 
+aside#sidebar1{
+  float:left;
+  width:100%
+  margin-top:90px;
+}
+
+article#main-col{
+  padding-top:90px;
+  float:left;
+  width:65%;
+}
+
+
+
+
+
 /* Comments section */
 
 #comments-section{
@@ -339,33 +355,7 @@ nav ul {
     width: 100%;
   }
 
-  footer {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  footer #left-footer {
-    flex: 1;
-    border-right: 0;
-    padding-left: 0;
-  }
-
-  footer #right-footer {
-    background: #eee;
-    color: black;
-  }
-
-  footer #right-footer a {
-    color: black;
-  }
-
-  footer #social-media-footer a .fa-facebook,
-  footer #social-media-footer a .fa-youtube,
-  footer #social-media-footer a .fa-github {
-    color: black;
-    transition: 0.4s;
-  }
-}
+  
 
 @media (max-width: 600px) {
   main {
